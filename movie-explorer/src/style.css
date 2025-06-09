@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1c1c1c;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+#searchInput {
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+}
+
+#movieDetails img {
+  width: 200px;
+}
+
+#movieDetails,
+#suggestions {
+  margin-top: 2rem;
+}
