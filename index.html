@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Explorer</title>
-    <!-- these two lines must use absolute-from-root paths -->
-    <link rel="stylesheet" href="./movie-explorer/src/style.css" />
   </head>
   <body>
     <div id="app">
@@ -17,6 +15,7 @@
       <div id="suggestions"></div>
     </div>
 
-    <script type="module" src="./movie-explorer/src/main.js"></script>
+    <!-- This lets Vite inject your JS and CSS -->
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
